@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2F0C8225047AA90050E0A4 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C7B25047AA90050E0A4 /* cannon.mp3 */; };
+		BD2F0C8325047AA90050E0A4 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C7C25047AA90050E0A4 /* elise.mp3 */; };
+		BD2F0C8425047AA90050E0A4 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C7D25047AA90050E0A4 /* aria.mp3 */; };
+		BD2F0C8525047AA90050E0A4 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C7F25047AA90050E0A4 /* Beethoven.jpg */; };
+		BD2F0C8625047AA90050E0A4 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C8025047AA90050E0A4 /* Pachelbel.jpg */; };
+		BD2F0C8725047AA90050E0A4 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD2F0C8125047AA90050E0A4 /* Bach.jpg */; };
 		BDEAACFC25038F69003DCDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAACFB25038F69003DCDB4 /* AppDelegate.swift */; };
 		BDEAACFE25038F69003DCDB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAACFD25038F69003DCDB4 /* SceneDelegate.swift */; };
 		BDEAAD0025038F69003DCDB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAACFF25038F69003DCDB4 /* ViewController.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD2F0C7B25047AA90050E0A4 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		BD2F0C7C25047AA90050E0A4 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		BD2F0C7D25047AA90050E0A4 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		BD2F0C7F25047AA90050E0A4 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		BD2F0C8025047AA90050E0A4 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		BD2F0C8125047AA90050E0A4 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
 		BDEAACF825038F69003DCDB4 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEAACFB25038F69003DCDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDEAACFD25038F69003DCDB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD2F0C7925047AA90050E0A4 /* TechPod素材 */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F0C7A25047AA90050E0A4 /* Songs */,
+				BD2F0C7E25047AA90050E0A4 /* Images */,
+			);
+			path = "TechPod素材";
+			sourceTree = "<group>";
+		};
+		BD2F0C7A25047AA90050E0A4 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F0C7B25047AA90050E0A4 /* cannon.mp3 */,
+				BD2F0C7C25047AA90050E0A4 /* elise.mp3 */,
+				BD2F0C7D25047AA90050E0A4 /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		BD2F0C7E25047AA90050E0A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F0C7F25047AA90050E0A4 /* Beethoven.jpg */,
+				BD2F0C8025047AA90050E0A4 /* Pachelbel.jpg */,
+				BD2F0C8125047AA90050E0A4 /* Bach.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		BDEAACEF25038F69003DCDB4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +140,7 @@
 		BDEAACFA25038F69003DCDB4 /* TechPod */ = {
 			isa = PBXGroup;
 			children = (
+				BD2F0C7925047AA90050E0A4 /* TechPod素材 */,
 				BDEAACFB25038F69003DCDB4 /* AppDelegate.swift */,
 				BDEAACFD25038F69003DCDB4 /* SceneDelegate.swift */,
 				BDEAACFF25038F69003DCDB4 /* ViewController.swift */,
@@ -233,8 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEAAD0825038F6A003DCDB4 /* LaunchScreen.storyboard in Resources */,
+				BD2F0C8225047AA90050E0A4 /* cannon.mp3 in Resources */,
+				BD2F0C8725047AA90050E0A4 /* Bach.jpg in Resources */,
+				BD2F0C8325047AA90050E0A4 /* elise.mp3 in Resources */,
 				BDEAAD0525038F6A003DCDB4 /* Assets.xcassets in Resources */,
+				BD2F0C8625047AA90050E0A4 /* Pachelbel.jpg in Resources */,
 				BDEAAD0325038F69003DCDB4 /* Main.storyboard in Resources */,
+				BD2F0C8425047AA90050E0A4 /* aria.mp3 in Resources */,
+				BD2F0C8525047AA90050E0A4 /* Beethoven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
